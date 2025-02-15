@@ -1,0 +1,15 @@
+/* Căn giữa tất cả hình ảnh */
+img {
+    display: block;             /* Làm cho hình ảnh trở thành block element */
+    margin-left: auto;          /* Tự động căn trái */
+    margin-right: auto;         /* Tự động căn phải */
+    max-width: 100%;            /* Đảm bảo hình ảnh không bị vượt quá kích thước của phần tử chứa */
+    height: auto;               /* Đảm bảo tỷ lệ của hình ảnh không bị méo */
+}
+
+/* Căn lề hai bên cho các phần tử (ví dụ: main hoặc section) */
+main, section, article {
+    width: 100%;
+    padding: 0 20px;            /* Thêm một khoảng đệm từ hai bên */
+    box-sizing: border-box;     /* Đảm bảo padding không làm thay đổi kích thước phần tử */
+}
